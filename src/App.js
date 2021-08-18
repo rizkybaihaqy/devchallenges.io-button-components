@@ -99,6 +99,9 @@ function App() {
           <Button color="danger">Default</Button>
         </div>
       </div>
+      <footer className="footer">
+        <p>rizkybaihaqy - devchallenges.io</p>
+      </footer>
     </>
   )
 }
