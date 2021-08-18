@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.button,
+.button.default {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #E0E0E0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-size: inherit;
+  font-family: inherit;
+}
+.button.default:hover,
+.button:hover,
+.button:focus {
+  background-color: #AEAEAE;
+}
+
+.button.outline {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E0E0E0;
+  background-color: transparent;
+}
+.button.text {
+  color: #3d5afe;
+  background-color: transparent;
+  box-shadow: none;
+}
+.button.outline:hover,
+.button.outline:focus,
+.button.text:hover,
+.button.text:focus {
+  background-color: #2962FF10;
+}
+
+.button.outline.primary {
+  color: #2962FF;
+  background-color: transparent;
+  border-color: #2962FF;
+}
+.button.text.primary {
+  color: #2962FF;
+  background-color: transparent;
+  box-shadow: none;
+}
+.button.outline.primary:hover,
+.button.outline.primary:focus,
+.button.text.primary:hover,
+.button.text.primary:focus {
+  background-color: #0039CB10;
+}
+
+.button.outline.secondary {
+  color: #455A64;
+  background-color: transparent;
+  border-color: #455A64;
+}
+.button.text.secondary {
+  color: #455A64;
+  background-color: transparent;
+  box-shadow: none;
+}
+.button.outline.secondary:hover,
+.button.outline.secondary:focus,
+.button.text.secondary:hover,
+.button.text.secondary:focus {
+  background-color: #1C313A10;
+}
+
+.button.outline.danger {
+  color: #D32F2F;
+  background-color: transparent;
+  border-color: #D32F2F;
+}
+.button.text.danger {
+  color: #D32F2F;
+  background-color: transparent;
+  box-shadow: none;
+}
+.button.outline.danger:hover,
+.button.outline.danger:focus,
+.button.text.danger:hover,
+.button.text.danger:focus {
+  background-color: #9A000710;
+}
+
+.button.disable-shadow {
+  box-shadow: none;
+}
+
+.button:disabled,
+.button:disabled:hover,
+.button:disabled:focus {
+  color: #9E9E9E;
+  background-color: #E0E0E0;
+}
+.button.text:disabled {
+  background-color: transparent;
+}
+
+.button.sm {
+  padding: 0.25rem 0.75rem;
+}
+.button.md {
+  padding: 0.5rem 1rem;
+}
+.button.lg {
+  padding: 0.75rem 1.25rem;
+}
+
+.button.primary {
+  color: white;
+  background-color: #2962FF;
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #0039CB;
+}
+
+.button.secondary {
+  color: white;
+  background-color: #455A64;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: #1C313A;
+}
+
+.button.danger {
+  color: white;
+  background-color: #D32F2F;
+}
+.button.danger:hover,
+.button.danger:focus {
+  background-color: #9A0007;
+}
